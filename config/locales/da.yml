@@ -1,0 +1,46 @@
+da:
+  shared:
+    admin:
+      image_picker:
+        image: billede
+  plugins:
+    calendar:
+      title: Begivenhed
+  admin:
+    events:
+      index:
+        title: Begivenheder
+        create_new: Tilføj Ny Begivenhed
+        reorder: Omroker Begivenheder
+        reorder_done: Omrokering af Begivenheder afsluttet
+        sorry_no_results: Der blev ikke fundet nogle søgeresultater.
+        no_items_yet: Der er endnu ingen Begivenheder. Klik "Tilføj Ny Begivenhed" for at tilføje din første begivenhed
+        manage_categories: Administrastrer Kategorier
+      event:
+        view_live_html: Vis denne begivenhed live <br/><em>(åbner i et nyt vindue)</em>
+        edit: Rediger denne begivenhed
+        delete: Slet denne begivenhed helt
+      sortable_list:
+        current_events: Nuværende Begivenheder
+        upcoming_events: Kommende Begivenheder
+        archived_events: Arkiverede Begivenheder
+    event_categories:
+      index:
+        title: Kategorier for Begivenheder
+        create_new: Tilføj Ny Kategori for Begivenheder
+        reorder: Omroker Kategorier for Begivenheder
+        reorder_done: Omrokering af Kategorier for Begivenheder afsluttet
+        sorry_no_results: Der blev ikke fundet nogle søgeresultater.
+        no_items_yet: Der er endnu ingen Kategorier for Begivenheder. Klik "Tilføj Ny Kategori for Begivenheder" for at tilføje din første kategori
+        manage_events: Administrer Begivenheder
+      event_category:
+        view_live_html: Vis denne kategori live <br/><em>(åbner i et nyt vindue)</em>
+        edit: Rediger denne kategori
+        delete: Slet denne kategori helt
+  events:
+    index:
+      archives: Arkiver
+    show:
+    sidebar:
+      other: Andre Begivenheder
+
